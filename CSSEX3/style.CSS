@@ -1,0 +1,39 @@
+
+
+
+nav {
+    align-items: center;
+    background-color: black;
+    }
+    h1 {
+    font-family:Snell Roundhand, cursive;
+    color: blue;
+    float: left;
+    background-color: indianred;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+
+    
+
+    }
+    p {
+    align-items: center;
+    font-family:cursive;   
+    color: royalblue;
+    
+    border: 8px dotted cornflowerblue;
+    background-color: lightblue;
+    float: right;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+    }
+
+    nav {
+
+ 
+    
+
+        
+    }
