@@ -1,0 +1,169 @@
+/* General Styles */
+
+
+/* Header */
+header {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center; 
+}
+
+/* center TEXT */
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Advent Pro', sans-serif; /* Use Advent Pro font */
+  font-size: 40px; 
+  text-align: center;
+}
+
+
+/* Website background */
+
+body {
+  background-color: #777777;
+}
+
+
+/* Card Border */
+
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 3px solid #4f4fa1;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px; 
+}
+
+/* margin-bottom for the cards */
+.card:not(:last-child) {
+  margin-bottom: 10px; 
+}
+
+
+/* Header */
+header {
+  margin-bottom: 20px;
+}
+
+/* Filters */
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 20px;
+  width: 100%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  padding-left: 20px; 
+  background-color: #b1b1b1; 
+  border-radius: 5px;
+ 
+
+  padding-bottom: 1px; 
+  margin-bottom: 1px; 
+  height: auto; 
+
+  padding: 50px;
+}
+
+
+
+.filters-container h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.filters-container select {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Card List */
+
+.card-img-top {
+  object-fit: cover; 
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+}
+
+#card-list .card {
+  width: 18rem;
+  margin-bottom: 20px;
+  background-color: #bbbbbb; /* Add this line to set the background color to gray */
+}
+
+.card .badge-container {
+  position: relative;
+}
+
+.card .status-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.card .card-species {
+  margin-bottom: 0;
+}
+
+/* Responsive Styles */
+
+@media (min-width: 992px) {
+  /* Card List Columns */
+  #car-list .card {
+    width: calc(100% / 3);
+  }
+}
+
+/* Bootstrap  */
+
+/* Bootstrap's default button color */
+.btn-outline-success {
+  color: #14211b;
+  border-color: #198754;
+}
+
+/* Bootstrap default margin for the search button */
+#search-button {
+  margin-left: 5px;
+}
+
+/* Rest of the styles... */
+
+
+
+/* Badge container and position */
+
+.alive {
+  background-color: rgb(50, 123, 50);
+}
+
+.dead {
+  background-color: rgb(253, 78, 78);
+}
+
+.unknown {
+  background-color: rgb(188, 117, 255);
+}
+
+.card .badge-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card .status-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 0%; 
+}
